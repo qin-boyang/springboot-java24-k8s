@@ -58,7 +58,7 @@ kubectl config current-context
 # Build the application
 ./mvnw clean package
 
-# Build Docker image
+# Build Docker image named springboot-java24
 docker build -t springboot-java24 .
 
 # Deploy to Kubernetes
